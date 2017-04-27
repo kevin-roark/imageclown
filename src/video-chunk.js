@@ -2,8 +2,7 @@
 const path = require('path')
 
 const { queue } = require('./exec')
-const { futil } = require('./util')
-const { glob }  = require('./util')
+const { futil, glob } = require('./util')
 const { tempDir, ext } = require('./config')
 const Frame = require('./frame')
 const Chunk = require('./chunk')
